@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rationale&display=swap" rel="stylesheet">
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+
+    <script src="assets/js/first.js"></script>
+</head>
+<body>
+    <div id="firstBackground">
+        <div id="firstText">
+            <span id="firstText1">WELCOME</span>
+            <span id="firstText2">TO MY WEB</span>
+        </div>
+    </div>
+    <div id="firstBackground2">
+        <img src="assets/images/myPhoto_1.jpg" id="firstBackground2Images">
+    </div>
+
+    <div id="container">
+        <main>
+            <div id="section1" class="hide">
+                <img src="assets/images/bg-1.jfif" id="bgPhoto">
+                <div id="blackMask">
+                    <div id="containerTitle">
+                        <span class="title">
+                            HELLO WORLD!
+                        </span>
+                        <br>
+                        <span class="title">
+                            WELCOME TO MY WEBSITE!
+                        </span>
+                        <div id="subTitle">
+                            <span class="subTitle">
+                                SMK Cinta Kasih Tzu Chi’s
+                            </span>
+                            <br>
+                            <span class="subTitle">
+                                Alumnus Year 2020/ 2021
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="section2" class="hide">
+                <div class="containerSection">
+                    <p class="header text-black">
+                        About Me
+                    </p>
+                    <p class="contentText text-black">
+                        This is a project I created on my 17th, so:
+                    </p>
+                    <p class="contentText text-black">
+                        Hello, My name is Roger Julianto Angryawan, 17 years old. I am a 12th grade student of Cinta Kasih Tzu Chi Vocational High School majoring at Software Engineering.
+                    </p>
+                    <p class="contentText text-black">
+                        Yeah, I love to code.
+                    </p>
+                </div>
+            </div>
+            <div id="section3" class="hide">
+                <div class="containerSection">
+                    <p class="header text-white">
+                        Achievement
+                    </p>
+                    <ul>
+                        <li>
+                            <span class="contentText text-white">2nd winner of Piala Padma on Students Division</span>
+                        </li>
+                        <li>
+                            <span class="contentText text-white">1st winner of West Jakarta Division One’s Web Technlogies Competition 2019</span>
+                        </li>
+                        <li>
+                            <span class="contentText text-white">3rd winner of West Jakarta Division One’s Web Design Competition 2018</span>
+                        </li>
+                        <li>
+                            <span class="contentText text-white">And more...</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="section4" class="hide">
+                <div class="containerSection">
+                    <p class="header text-black">
+                        Experience
+                    </p>
+                    <br>
+                    <br>
+                    <p class="subHeader text-black withUnderline">
+                        January 2020 - March 2020
+                    </p>
+                    <p class="contentText text-black">
+                        This was my second working experience at PT Global Expo Management. I worked there as a Programmer and maintaining PT Global Expo Management’s websites.
+                    </p>
+                    <br>
+                    <p class="subHeader text-black withUnderline">
+                        Juli 2019 - Oktober 2019
+                    </p>
+                    <p class="contentText text-black">
+                        This was my very first working experience at PT Hidup Jangan Kaku. I also worked there as a Programmer and sometimes help the workers there to input data.
+                    </p>
+                </div>
+            </div>
+            <div id="section5" class="hide">
+                <div class="containerSection">
+                    <p class="header text-white">
+                        Contact Me At:
+                    </p>
+                    <br>
+                    <br>
+                    <p class="subHeader2 text-white">
+                        <span class="iconify" data-inline="false" data-icon="ant-design:instagram-filled" style="color: #ffffff; font-size: 2vw;"></span>
+                        <span class="pseudoImage">@rogerjulianto</span>
+                    </p>
+                    <br>
+                    <p class="subHeader2 text-white">
+                        <span class="iconify" data-inline="false" data-icon="ant-design:twitter-circle-filled" style="color: #ffffff; font-size: 31px;"></span>
+                        <span class="pseudoImage">@RogerJGA</span>
+                    </p>
+                    <br>
+                    <p class="subHeader2 text-white">
+                        <span class="iconify" data-inline="false" data-icon="entypo:email" style="color: #ffffff; font-size: 32px;"></span>
+                        <span class="pseudoImage">rogerangryawan111@gmail.com</span>
+                    </p>
+                </div>
+            </div>
+        </main>
+        <aside>
+            <div id="containerSidebar">
+                <div id="containerImageSidebar">
+                    <div id="imageSidebar" class="hide">
+                        <img src="assets/images/myPhoto_1-Small.jpg" alt="Foto Profile" id="myPhoto">
+                        <img src="assets/images/Drop-Down Profile 2.png" alt="Drop-Down" id="dropDown">
+                        <ul id="dropDownList">
+                            <div class="list"onclick="goToCertainSection('section1')">    
+                                <li id="dropDownList1">
+                                    HOME
+                                </li>
+                            </div>
+                            <div class="list" onclick="goToCertainSection('section2')">
+                                <li id="dropDownList2">
+                                    ABOUT ME
+                                </li>
+                            </div>
+                            <div class="list" onclick="goToCertainSection('section3')">
+                                <li id="dropDownList3">
+                                    ACHIEVEMENT
+                                </li>
+                            </div>
+                            <div class="list" onclick="goToCertainSection('section4')">
+                                <li id="dropDownList4">
+                                    EXPERIENCE
+                                </li>
+                            </div>
+                            <div class="list" onclick="goToCertainSection('section5')">
+                                <li class="dropDownList">
+                                    CONTACT ME
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+</body>
+</html>
